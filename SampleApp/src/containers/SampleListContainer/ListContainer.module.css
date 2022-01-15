@@ -1,0 +1,36 @@
+.container {
+  padding: 20px;
+}
+
+.item {
+  width: 90vw;
+  margin: 1rem 0;
+  background-color: #f3f5f5;
+  padding: 1rem;
+  /* margin:  */
+}
+
+.item > * {
+  margin: 5px 0;
+}
+
+.button {
+  padding: 5px 10px;
+}
+
+.deleteBtn {
+  /* border-width: 2rem; */
+  background-color: #f66161;
+  padding: 5px 10px;
+  border-style: none;
+  color: white;
+  margin-right: 5px;
+}
+
+.editBtn {
+  background-color: #6ec21e;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-style: none;
+  color: white;
+}

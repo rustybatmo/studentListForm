@@ -1,0 +1,34 @@
+.header {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  /* align-items: spacei; */
+  justify-content: space-around;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.deetSection {
+  margin: auto;
+  background-color: #fefeef;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.deetSection > * {
+  padding: 10px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+button {
+  background-color: #6ec21e;
+  padding: 5px 10px;
+  border-style: none;
+  color: white;
+  margin-right: 5px;
+}

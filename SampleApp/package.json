@@ -1,0 +1,39 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "react-cli clean build unittest coverage",
+    "docs": "react-cli docs",
+    "component": "react-cli build:component",
+    "component:umd": "react-cli build:component:umd",
+    "start": "react-cli start",
+    "build": "react-cli build",
+    "test": "npm run clean && react-cli test",
+    "lint": "react-cli lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zohodesk/components": "^1.0.0-alpha-21",
+    "cors": "^2.8.5",
+    "redux-devtools": "^3.5.0",
+    "redux-devtools-dock-monitor": "^1.1.3",
+    "redux-devtools-log-monitor": "^1.4.0",
+    "redux-logger": "^3.0.6",
+    "reselect": "^4.0.0"
+  },
+  "react-cli": {
+    "app": {
+      "server": {
+        "hasMock": true,
+        "disableContextURL": true
+      }
+    }
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express-fileupload": "^1.1.5"
+  }
+}

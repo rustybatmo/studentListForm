@@ -1,0 +1,41 @@
+.container {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+  background-color: var(--zd_bg_pure);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 5;
+  overflow: auto;
+}
+.xsmall {
+  width: 360px;
+}
+.small {
+  width: 410px;
+}
+.medium {
+  width: 660px;
+}
+.large {
+  width: 936px;
+}
+
+.close a,
+.close input,
+.close textarea,
+.close button,
+.close iframe {
+  display: none;
+}
+
+@media only screen and (max-width: 22.5em) {
+  .container {
+    width: 100%;
+  }
+}
+
+html[dir="rtl"] .container {
+  left: 0;
+  right: initial;
+}

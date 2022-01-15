@@ -1,0 +1,43 @@
+.topbar {
+  min-height: 45px;
+  background: #1e2633;
+
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  z-index: 5;
+  color: #fff;
+}
+
+:global ul,
+:global li {
+  padding: 0;
+  margin: 0;
+}
+
+.menuUl {
+  list-style: none;
+}
+
+.menuli {
+  float: left;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.menuliActive {
+  background: #4b515c;
+}
+
+.menuLink {
+  padding: 17px 14px 15px;
+  float: left;
+  line-height: 13px;
+  color: #fff;
+  max-width: 110px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
